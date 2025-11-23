@@ -86,7 +86,7 @@ export default function Blog() {
             <a href="/#guide" className="text-sm text-muted-foreground hover:text-foreground transition">Guide</a>
             <a href="/about" className="text-sm text-muted-foreground hover:text-foreground transition">À propos</a>
             <a href="/blog" className="text-sm text-foreground font-semibold">Blog</a>
-            <a href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
+            <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
           </div>
         </div>
       </nav>
@@ -173,7 +173,7 @@ export default function Blog() {
               Inscrivez-vous pour être notifié des nouveaux articles.
             </p>
             <Button size="lg" variant="outline" asChild>
-              <a href="/contact">Me contacter pour en savoir plus</a>
+              <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer">Me contacter pour en savoir plus</a>
             </Button>
           </div>
         </section>
