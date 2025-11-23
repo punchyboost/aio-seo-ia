@@ -1,8 +1,7 @@
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "pnpm install --no-frozen-lockfile && pnpm build",
   "outputDirectory": "dist/public",
   "framework": null,
-  "installCommand": "pnpm install",
   "rewrites": [
     {
       "source": "/(.*)",
