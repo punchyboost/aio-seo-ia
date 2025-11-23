@@ -92,7 +92,7 @@ export default function Home() {
             <a href="#guide" className="text-sm text-muted-foreground hover:text-foreground transition">Guide</a>
             <a href="/about" className="text-sm text-muted-foreground hover:text-foreground transition">À propos</a>
             <a href="/blog" className="text-sm text-muted-foreground hover:text-foreground transition">Blog</a>
-            <a href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
+            <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
           </div>
         </div>
       </nav>
@@ -127,7 +127,7 @@ export default function Home() {
             </div>
             <div className="flex gap-4">
               <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90" asChild>
-                <a href="/contact">Parler de votre projet AIO</a>
+                <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer">Parler de votre projet AIO</a>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <a href="#guide">Découvrir comment fonctionne l'AIO</a>
@@ -419,7 +419,7 @@ export default function Home() {
               Si vous êtes une TPE/PME avec un site déjà en ligne et l'impression de ne pas en tirer tout son potentiel, l'AIO est probablement le bon cadre pour remettre de l'ordre dans vos contenus, votre SEO et vos usages de l'IA.
             </p>
             <Button size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90" asChild>
-              <a href="/contact">Parler de votre projet AIO</a>
+              <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer">Parler de votre projet AIO</a>
             </Button>
           </div>
         </section>
