@@ -1,5 +1,4 @@
-import ContactForm from "@/components/ContactForm";
-import { CheckCircle2 } from "lucide-react";
+import { Mail, Linkedin } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -33,61 +32,42 @@ export default function Contact() {
             </p>
           </div>
 
-          {/* Pourquoi me contacter */}
-          <div className="grid md:grid-cols-3 gap-6 mb-16">
-            <div className="text-center">
-              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle2 className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">Diagnostic gratuit</h3>
-              <p className="text-sm text-muted-foreground">
-                Premier échange pour comprendre votre situation et vos besoins
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle2 className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">Réponse rapide</h3>
-              <p className="text-sm text-muted-foreground">
-                Je vous recontacte sous 24h pour planifier un premier échange
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <CheckCircle2 className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground mb-2">Sans engagement</h3>
-              <p className="text-sm text-muted-foreground">
-                Aucune obligation, juste une discussion pour voir si je peux vous aider
-              </p>
-            </div>
-          </div>
+          {/* Contact direct */}
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-card border border-border rounded-lg p-12 text-center">
+              <h2 className="text-3xl font-bold text-foreground mb-8">
+                Contactez-moi directement
+              </h2>
+              
+              <div className="space-y-6">
+                {/* Email */}
+                <a 
+                  href="mailto:contact@punchyboost.com"
+                  className="flex items-center justify-center gap-3 text-lg text-primary hover:text-primary/80 transition group"
+                >
+                  <Mail className="w-6 h-6 group-hover:scale-110 transition" />
+                  <span className="font-semibold">contact@punchyboost.com</span>
+                </a>
 
-          {/* Formulaire */}
-          <ContactForm />
+                <div className="text-muted-foreground">ou</div>
 
-          {/* Autres moyens de contact */}
-          <div className="mt-16 text-center">
-            <p className="text-muted-foreground mb-4">
-              Vous préférez un autre moyen de contact ?
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <a 
-                href="mailto:contact@punchyboost.com" 
-                className="text-primary hover:underline"
-              >
-                contact@punchyboost.com
-              </a>
-              <span className="text-muted-foreground">•</span>
-              <a 
-                href="https://www.linkedin.com/in/christian-lyon66/" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary hover:underline"
-              >
-                LinkedIn
-              </a>
+                {/* LinkedIn */}
+                <a 
+                  href="https://www.linkedin.com/in/christian-lyon66/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-3 text-lg text-primary hover:text-primary/80 transition group"
+                >
+                  <Linkedin className="w-6 h-6 group-hover:scale-110 transition" />
+                  <span className="font-semibold">LinkedIn</span>
+                </a>
+              </div>
+
+              <div className="mt-12 pt-8 border-t border-border">
+                <p className="text-muted-foreground">
+                  Je vous réponds sous 24h pour discuter de vos besoins en SEO et IA.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -118,7 +98,7 @@ export default function Contact() {
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
             <p>&copy; 2024 AIO - SEO boosté par l'IA. Tous droits réservés.</p>
-            <p className="mt-2">Dernière mise à jour : 22 novembre 2024</p>
+            <p className="mt-2">Dernière mise à jour : 23 novembre 2024</p>
           </div>
         </div>
       </footer>
