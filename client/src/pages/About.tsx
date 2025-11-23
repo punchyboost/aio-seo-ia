@@ -351,4 +351,3 @@ export default function About() {
     </div>
   );
 }
-"Fix menu and CTA button"
