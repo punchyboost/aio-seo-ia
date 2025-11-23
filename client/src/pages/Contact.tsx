@@ -11,7 +11,10 @@ export default function Contact() {
           <div className="flex gap-6">
             <a href="/" className="text-sm text-muted-foreground hover:text-foreground transition">Accueil</a>
             <a href="/#services" className="text-sm text-muted-foreground hover:text-foreground transition">Services</a>
+            <a href="/#methode" className="text-sm text-muted-foreground hover:text-foreground transition">Méthode</a>
+            <a href="/#guide" className="text-sm text-muted-foreground hover:text-foreground transition">Guide</a>
             <a href="/about" className="text-sm text-muted-foreground hover:text-foreground transition">À propos</a>
+            <a href="/blog" className="text-sm text-muted-foreground hover:text-foreground transition">Blog</a>
             <a href="/contact" className="text-sm text-foreground font-semibold">Contact</a>
           </div>
         </div>
@@ -71,10 +74,10 @@ export default function Contact() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a 
-                href="mailto:contact@votre-site.fr" 
+                href="mailto:contact@punchyboost.com" 
                 className="text-primary hover:underline"
               >
-                contact@votre-site.fr
+                contact@punchyboost.com
               </a>
               <span className="text-muted-foreground">•</span>
               <a 
@@ -122,3 +125,4 @@ export default function Contact() {
     </div>
   );
 }
+"Fix menu and email"
