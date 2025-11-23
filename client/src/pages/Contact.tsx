@@ -81,7 +81,7 @@ export default function Contact() {
               </a>
               <span className="text-muted-foreground">•</span>
               <a 
-                href="https://linkedin.com/in/votre-profil" 
+                href="https://www.linkedin.com/in/christian-lyon66/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
