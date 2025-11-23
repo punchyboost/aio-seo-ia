@@ -82,7 +82,7 @@ L'AIO n'est pas une révolution, mais une évolution naturelle du SEO. Les entre
             <a href="/#services" className="text-sm text-muted-foreground hover:text-foreground transition">Services</a>
             <a href="/about" className="text-sm text-muted-foreground hover:text-foreground transition">À propos</a>
             <a href="/blog" className="text-sm text-foreground font-semibold">Blog</a>
-            <a href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
+            <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
           </div>
         </div>
       </nav>
@@ -170,7 +170,7 @@ L'AIO n'est pas une révolution, mais une évolution naturelle du SEO. Les entre
               Je vous accompagne dans votre stratégie SEO et IA générative.
             </p>
             <Button size="lg" asChild>
-              <a href="/contact">Parler de votre projet</a>
+              <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer">Parler de votre projet</a>
             </Button>
           </div>
         </article>
