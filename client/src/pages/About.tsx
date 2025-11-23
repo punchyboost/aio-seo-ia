@@ -104,8 +104,11 @@ export default function About() {
           <div className="flex gap-6">
             <a href="/" className="text-sm text-muted-foreground hover:text-foreground transition">Accueil</a>
             <a href="/#services" className="text-sm text-muted-foreground hover:text-foreground transition">Services</a>
+            <a href="/#methode" className="text-sm text-muted-foreground hover:text-foreground transition">Méthode</a>
+            <a href="/#guide" className="text-sm text-muted-foreground hover:text-foreground transition">Guide</a>
             <a href="/about" className="text-sm text-foreground font-semibold">À propos</a>
-            <a href="/#contact" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
+            <a href="/blog" className="text-sm text-muted-foreground hover:text-foreground transition">Blog</a>
+            <a href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
           </div>
         </div>
       </nav>
@@ -310,8 +313,8 @@ export default function About() {
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
               Je suis actuellement disponible en freelance pour accompagner les TPE/PME sur leurs projets de SEO et IA générative. Parlons de votre projet.
             </p>
-            <Button size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90">
-              Parler de votre projet
+            <Button size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90" asChild>
+              <a href="/contact">Parler de votre projet</a>
             </Button>
           </div>
         </section>
@@ -348,3 +351,4 @@ export default function About() {
     </div>
   );
 }
+"Fix menu and CTA button"
