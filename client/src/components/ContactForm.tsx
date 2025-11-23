@@ -49,8 +49,8 @@ export default function ContactForm() {
     setIsSubmitting(true);
 
     try {
-      // Envoi via l'API backend avec Resend
-      const response = await fetch('/api/contact', {
+      // Envoi via Formspree
+      const response = await fetch('https://formspree.io/f/mdkjveqw', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,10 +58,8 @@ export default function ContactForm() {
         body: JSON.stringify(formData),
       });
 
-      const data = await response.json();
-
       if (!response.ok) {
-        throw new Error(data.error || 'Erreur lors de l\'envoi');
+        throw new Error('Erreur lors de l\'envoi');
       }
 
       toast.success("✅ Message envoyé ! Nous vous recontactons sous 24h.");
