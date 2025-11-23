@@ -108,7 +108,7 @@ export default function About() {
             <a href="/#guide" className="text-sm text-muted-foreground hover:text-foreground transition">Guide</a>
             <a href="/about" className="text-sm text-foreground font-semibold">À propos</a>
             <a href="/blog" className="text-sm text-muted-foreground hover:text-foreground transition">Blog</a>
-            <a href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
+            <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
           </div>
         </div>
       </nav>
@@ -314,7 +314,7 @@ export default function About() {
               Je suis actuellement disponible en freelance pour accompagner les TPE/PME sur leurs projets de SEO et IA générative. Parlons de votre projet.
             </p>
             <Button size="lg" variant="secondary" className="bg-background text-foreground hover:bg-background/90" asChild>
-              <a href="/contact">Parler de votre projet</a>
+              <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer">Parler de votre projet</a>
             </Button>
           </div>
         </section>
