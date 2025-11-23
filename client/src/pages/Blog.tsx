@@ -82,6 +82,8 @@ export default function Blog() {
           <div className="flex gap-6">
             <a href="/" className="text-sm text-muted-foreground hover:text-foreground transition">Accueil</a>
             <a href="/#services" className="text-sm text-muted-foreground hover:text-foreground transition">Services</a>
+            <a href="/#methode" className="text-sm text-muted-foreground hover:text-foreground transition">Méthode</a>
+            <a href="/#guide" className="text-sm text-muted-foreground hover:text-foreground transition">Guide</a>
             <a href="/about" className="text-sm text-muted-foreground hover:text-foreground transition">À propos</a>
             <a href="/blog" className="text-sm text-foreground font-semibold">Blog</a>
             <a href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
