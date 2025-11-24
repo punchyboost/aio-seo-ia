@@ -21,7 +21,7 @@ const blogPosts: BlogPost[] = [
     title: "Qu'est-ce que l'AIO et pourquoi c'est important en 2024 ?",
     excerpt: "L'AIO (Artificial Intelligence Optimization) représente l'évolution naturelle du SEO. Découvrez comment optimiser vos contenus pour Google et les IA génératives.",
     category: "AIO",
-    date: "22 novembre 2024",
+    date: "22 novembre 2025",
     readTime: "5 min",
     slug: "quest-ce-que-aio-2024"
   },
@@ -30,7 +30,7 @@ const blogPosts: BlogPost[] = [
     title: "Comment structurer vos contenus pour les AI Overviews de Google",
     excerpt: "Les AI Overviews changent la donne en SEO. Apprenez à structurer vos pages pour être cité par Google dans ses réponses générées par IA.",
     category: "SEO",
-    date: "20 novembre 2024",
+    date: "20 novembre 2025",
     readTime: "7 min",
     slug: "structurer-contenus-ai-overviews"
   },
@@ -39,7 +39,7 @@ const blogPosts: BlogPost[] = [
     title: "E-E-A-T : Comment renforcer votre crédibilité pour les IA",
     excerpt: "Expertise, Expérience, Autorité, Trustworthiness : les 4 piliers pour être cité par les IA génératives. Guide pratique pour les TPE/PME.",
     category: "E-E-A-T",
-    date: "18 novembre 2024",
+    date: "18 novembre 2025",
     readTime: "6 min",
     slug: "eeat-credibilite-ia"
   },
@@ -48,7 +48,7 @@ const blogPosts: BlogPost[] = [
     title: "Données structurées Schema.org : Le guide complet pour l'AIO",
     excerpt: "Les données structurées sont essentielles pour que les IA comprennent votre contenu. Découvrez quels schémas utiliser et comment les implémenter.",
     category: "Technique",
-    date: "15 novembre 2024",
+    date: "15 novembre 2025",
     readTime: "10 min",
     slug: "donnees-structurees-schema-org"
   },
@@ -57,7 +57,7 @@ const blogPosts: BlogPost[] = [
     title: "ChatGPT et SEO : Comment utiliser l'IA pour votre stratégie de contenu",
     excerpt: "L'IA générative peut accélérer votre production de contenu sans sacrifier la qualité. Méthodes et prompts pour une utilisation efficace.",
     category: "IA Générative",
-    date: "12 novembre 2024",
+    date: "12 novembre 2025",
     readTime: "8 min",
     slug: "chatgpt-strategie-contenu-seo"
   },
@@ -66,7 +66,7 @@ const blogPosts: BlogPost[] = [
     title: "Identifier les requêtes qui déclenchent un AI Overview",
     excerpt: "Toutes les requêtes ne génèrent pas d'AI Overview. Apprenez à cartographier vos opportunités et à prioriser vos efforts SEO.",
     category: "AIO",
-    date: "10 novembre 2024",
+    date: "10 novembre 2025",
     readTime: "5 min",
     slug: "identifier-requetes-ai-overview"
   }
