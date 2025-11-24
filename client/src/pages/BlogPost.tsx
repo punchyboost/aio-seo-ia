@@ -2,18 +2,90 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Clock, ArrowLeft, Share2 } from "lucide-react";
 import { useRoute } from "wouter";
 
-export default function BlogPost() {
-  const [, params] = useRoute("/blog/:slug");
-  const slug = params?.slug || "";
+interface BlogPostData {
+  title: string;
+  excerpt: string;
+  category: string;
+  date: string;
+  readTime: string;
+  author: string;
+  content: string;
+}
 
-  const post = {
-    title: "Article de blog AIO",
-    excerpt: "Contenu en cours de redaction",
+const blogPostsData: Record<string, BlogPostData> = {
+  "quest-ce-que-aio-2024": {
+    title: "Qu'est-ce que l'AIO et pourquoi c'est important en 2025 ?",
+    excerpt: "L'AIO (Artificial Intelligence Optimization) représente l'évolution naturelle du SEO.",
     category: "AIO",
     date: "22 novembre 2025",
     readTime: "5 min",
     author: "Christian Lyon",
-    content: "Contenu de l'article en cours de redaction. Revenez bientot pour lire l'article complet sur l'AIO et le SEO."
+    content: `## Introduction
+
+L'AIO (Artificial Intelligence Optimization) est devenu un terme incontournable dans le monde du SEO en 2025. Mais qu'est-ce que cela signifie vraiment pour votre entreprise ?
+
+## Qu'est-ce que l'AIO ?
+
+L'AIO est une approche qui combine :
+- Les fondations du SEO classique (technique, contenu, popularité)
+- Une utilisation structurée de l'IA générative pour produire, organiser et renforcer vos contenus
+- La réalité que les IA résument et relaient désormais l'information (AI Overviews, assistants IA)
+
+## Pourquoi l'AIO est stratégique pour les TPE/PME
+
+Une TPE/PME dispose rarement de plusieurs rédacteurs, d'un SEO à temps plein ou d'un responsable IA en interne. Résultat : le site est là, mais sous-utilisé.
+
+L'AIO permet de :
+1. **Poser une stratégie réaliste** adaptée à vos ressources
+2. **Accélérer la production** avec l'IA dans un cadre maîtrisé
+3. **Améliorer la lisibilité** de vos pages pour Google et les IA
+4. **Faire exister votre marque** dans un paysage où les réponses sont générées
+
+## Les 3 piliers de l'AIO
+
+### 1. Optimisation technique
+
+Votre site doit être indexable, rapide et accessible. Les fondamentaux du SEO restent essentiels.
+
+### 2. Contenu structuré
+
+Les contenus doivent être pensés pour être compris par les IA :
+- Réponses courtes et directes
+- Structure hiérarchique claire (H1, H2, H3)
+- Données structurées (Schema.org)
+- Format scannable (listes, tableaux)
+
+### 3. Crédibilité (E-E-A-T)
+
+Les IA citent en priorité les sources avec une forte Expertise, Expérience, Autorité et Trustworthiness.
+
+## Comment commencer avec l'AIO ?
+
+1. **Audit de votre site actuel** : Identifiez les opportunités et les blocages
+2. **Cartographie des requêtes AIO** : Quelles recherches déclenchent des AI Overviews ?
+3. **Optimisation progressive** : Commencez par vos pages les plus importantes
+4. **Mesure des résultats** : Suivez votre visibilité dans les AI Overviews
+
+## Conclusion
+
+L'AIO n'est pas une révolution, mais une évolution naturelle du SEO. Les entreprises qui s'y adaptent dès maintenant prendront une longueur d'avance sur leurs concurrents.
+
+**Besoin d'aide pour mettre en place l'AIO dans votre entreprise ?** [Contactez-moi](/contact) pour un diagnostic gratuit.`
+  }
+};
+
+export default function BlogPost() {
+  const [, params] = useRoute("/blog/:slug");
+  const slug = params?.slug || "";
+
+  const post = blogPostsData[slug] || {
+    title: "Article non trouvé",
+    excerpt: "Cet article n'existe pas",
+    category: "Erreur",
+    date: "",
+    readTime: "",
+    author: "",
+    content: "L'article demandé n'a pas été trouvé."
   };
 
   return (
@@ -72,9 +144,7 @@ export default function BlogPost() {
             </div>
           </header>
 
-          <div className="prose prose-lg max-w-none">
-            <p>{post.content}</p>
-          </div>
+          <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br/>').replace(/##/g, '<h2>').replace(/<h2>/g, '</p><h2 class="text-2xl font-bold mt-8 mb-4">').replace(/\n/g, '</h2><p>') }} />
 
           <footer className="mt-12 pt-8 border-t border-border">
             <div className="flex items-center justify-between">
