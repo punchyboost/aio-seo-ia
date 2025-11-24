@@ -333,8 +333,10 @@ export default function About() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li><a href="/" className="hover:text-foreground transition">Accueil</a></li>
                 <li><a href="/#services" className="hover:text-foreground transition">Services</a></li>
+                <li><a href="/#methode" className="hover:text-foreground transition">Méthode</a></li>
+                <li><a href="/#guide" className="hover:text-foreground transition">Guide</a></li>
                 <li><a href="/about" className="hover:text-foreground transition">À propos</a></li>
-                <li><a href="/#contact" className="hover:text-foreground transition">Contact</a></li>
+                <li><a href="/blog" className="hover:text-foreground transition">Blog</a></li>
               </ul>
             </div>
             <div>
@@ -344,7 +346,13 @@ export default function About() {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 AIO - SEO boosté par l'IA. Tous droits réservés.</p>
+            <p>&copy; {new Date().getFullYear()} Punchyboost - AIO SEO boosté par l'IA. Tous droits réservés.</p>
+            <p className="mt-2">Dernière mise à jour : {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+            <div className="mt-4 flex justify-center gap-4">
+              <a href="/mentions-legales" className="hover:text-foreground transition">Mentions légales</a>
+              <span>•</span>
+              <a href="/politique-confidentialite" className="hover:text-foreground transition">Politique de confidentialité</a>
+            </div>
           </div>
         </div>
       </footer>
