@@ -450,8 +450,13 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2024 AIO - SEO boosté par l'IA. Tous droits réservés.</p>
-            <p className="mt-2">Dernière mise à jour : 22 novembre 2024</p>
+            <p>&copy; {new Date().getFullYear()} Punchyboost - AIO SEO boosté par l'IA. Tous droits réservés.</p>
+            <p className="mt-2">Dernière mise à jour : {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+            <div className="mt-4 flex gap-4 justify-center">
+              <a href="/mentions-legales" className="hover:text-foreground transition">Mentions légales</a>
+              <span>•</span>
+              <a href="/politique-confidentialite" className="hover:text-foreground transition">Politique de confidentialité</a>
+            </div>
           </div>
         </div>
       </footer>
