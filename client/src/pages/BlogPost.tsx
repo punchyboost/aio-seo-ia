@@ -9,7 +9,7 @@ interface BlogPostData {
   date: string;
   readTime: string;
   author: string;
-  content: string;
+  content: JSX.Element;
 }
 
 const blogPostsData: Record<string, BlogPostData> = {
@@ -20,57 +20,72 @@ const blogPostsData: Record<string, BlogPostData> = {
     date: "22 novembre 2025",
     readTime: "5 min",
     author: "Christian Lyon",
-    content: `## Introduction
+    content: (
+      <>
+        <h2 className="text-2xl font-bold mt-8 mb-4">Introduction</h2>
+        <p className="mb-4">
+          L'AIO (Artificial Intelligence Optimization) est devenu un terme incontournable dans le monde du SEO en 2025. Mais qu'est-ce que cela signifie vraiment pour votre entreprise ?
+        </p>
 
-L'AIO (Artificial Intelligence Optimization) est devenu un terme incontournable dans le monde du SEO en 2025. Mais qu'est-ce que cela signifie vraiment pour votre entreprise ?
+        <h2 className="text-2xl font-bold mt-8 mb-4">Qu'est-ce que l'AIO ?</h2>
+        <p className="mb-4">L'AIO est une approche qui combine :</p>
+        <ul className="list-disc pl-6 mb-4 space-y-2">
+          <li>Les fondations du SEO classique (technique, contenu, popularité)</li>
+          <li>Une utilisation structurée de l'IA générative pour produire, organiser et renforcer vos contenus</li>
+          <li>La réalité que les IA résument et relaient désormais l'information (AI Overviews, assistants IA)</li>
+        </ul>
 
-## Qu'est-ce que l'AIO ?
+        <h2 className="text-2xl font-bold mt-8 mb-4">Pourquoi l'AIO est stratégique pour les TPE/PME</h2>
+        <p className="mb-4">
+          Une TPE/PME dispose rarement de plusieurs rédacteurs, d'un SEO à temps plein ou d'un responsable IA en interne. Résultat : le site est là, mais sous-utilisé.
+        </p>
+        <p className="mb-4">L'AIO permet de :</p>
+        <ol className="list-decimal pl-6 mb-4 space-y-2">
+          <li><strong>Poser une stratégie réaliste</strong> adaptée à vos ressources</li>
+          <li><strong>Accélérer la production</strong> avec l'IA dans un cadre maîtrisé</li>
+          <li><strong>Améliorer la lisibilité</strong> de vos pages pour Google et les IA</li>
+          <li><strong>Faire exister votre marque</strong> dans un paysage où les réponses sont générées</li>
+        </ol>
 
-L'AIO est une approche qui combine :
-- Les fondations du SEO classique (technique, contenu, popularité)
-- Une utilisation structurée de l'IA générative pour produire, organiser et renforcer vos contenus
-- La réalité que les IA résument et relaient désormais l'information (AI Overviews, assistants IA)
+        <h2 className="text-2xl font-bold mt-8 mb-4">Les 3 piliers de l'AIO</h2>
 
-## Pourquoi l'AIO est stratégique pour les TPE/PME
+        <h3 className="text-xl font-semibold mt-6 mb-3">1. Optimisation technique</h3>
+        <p className="mb-4">
+          Votre site doit être indexable, rapide et accessible. Les fondamentaux du SEO restent essentiels.
+        </p>
 
-Une TPE/PME dispose rarement de plusieurs rédacteurs, d'un SEO à temps plein ou d'un responsable IA en interne. Résultat : le site est là, mais sous-utilisé.
+        <h3 className="text-xl font-semibold mt-6 mb-3">2. Contenu structuré</h3>
+        <p className="mb-4">Les contenus doivent être pensés pour être compris par les IA :</p>
+        <ul className="list-disc pl-6 mb-4 space-y-2">
+          <li>Réponses courtes et directes</li>
+          <li>Structure hiérarchique claire (H1, H2, H3)</li>
+          <li>Données structurées (Schema.org)</li>
+          <li>Format scannable (listes, tableaux)</li>
+        </ul>
 
-L'AIO permet de :
-1. **Poser une stratégie réaliste** adaptée à vos ressources
-2. **Accélérer la production** avec l'IA dans un cadre maîtrisé
-3. **Améliorer la lisibilité** de vos pages pour Google et les IA
-4. **Faire exister votre marque** dans un paysage où les réponses sont générées
+        <h3 className="text-xl font-semibold mt-6 mb-3">3. Crédibilité (E-E-A-T)</h3>
+        <p className="mb-4">
+          Les IA citent en priorité les sources avec une forte Expertise, Expérience, Autorité et Trustworthiness.
+        </p>
 
-## Les 3 piliers de l'AIO
+        <h2 className="text-2xl font-bold mt-8 mb-4">Comment commencer avec l'AIO ?</h2>
+        <ol className="list-decimal pl-6 mb-4 space-y-2">
+          <li><strong>Audit de votre site actuel</strong> : Identifiez les opportunités et les blocages</li>
+          <li><strong>Cartographie des requêtes AIO</strong> : Quelles recherches déclenchent des AI Overviews ?</li>
+          <li><strong>Optimisation progressive</strong> : Commencez par vos pages les plus importantes</li>
+          <li><strong>Mesure des résultats</strong> : Suivez votre visibilité dans les AI Overviews</li>
+        </ol>
 
-### 1. Optimisation technique
-
-Votre site doit être indexable, rapide et accessible. Les fondamentaux du SEO restent essentiels.
-
-### 2. Contenu structuré
-
-Les contenus doivent être pensés pour être compris par les IA :
-- Réponses courtes et directes
-- Structure hiérarchique claire (H1, H2, H3)
-- Données structurées (Schema.org)
-- Format scannable (listes, tableaux)
-
-### 3. Crédibilité (E-E-A-T)
-
-Les IA citent en priorité les sources avec une forte Expertise, Expérience, Autorité et Trustworthiness.
-
-## Comment commencer avec l'AIO ?
-
-1. **Audit de votre site actuel** : Identifiez les opportunités et les blocages
-2. **Cartographie des requêtes AIO** : Quelles recherches déclenchent des AI Overviews ?
-3. **Optimisation progressive** : Commencez par vos pages les plus importantes
-4. **Mesure des résultats** : Suivez votre visibilité dans les AI Overviews
-
-## Conclusion
-
-L'AIO n'est pas une révolution, mais une évolution naturelle du SEO. Les entreprises qui s'y adaptent dès maintenant prendront une longueur d'avance sur leurs concurrents.
-
-**Besoin d'aide pour mettre en place l'AIO dans votre entreprise ?** [Contactez-moi](/contact) pour un diagnostic gratuit.`
+        <h2 className="text-2xl font-bold mt-8 mb-4">Conclusion</h2>
+        <p className="mb-4">
+          L'AIO n'est pas une révolution, mais une évolution naturelle du SEO. Les entreprises qui s'y adaptent dès maintenant prendront une longueur d'avance sur leurs concurrents.
+        </p>
+        <p className="mb-4">
+          <strong>Besoin d'aide pour mettre en place l'AIO dans votre entreprise ?</strong>{" "}
+          <a href="/contact" className="text-primary hover:underline">Contactez-moi</a> pour un diagnostic gratuit.
+        </p>
+      </>
+    )
   }
 };
 
@@ -85,7 +100,7 @@ export default function BlogPost() {
     date: "",
     readTime: "",
     author: "",
-    content: "L'article demandé n'a pas été trouvé."
+    content: <p>L'article demandé n'a pas été trouvé.</p>
   };
 
   return (
@@ -144,7 +159,9 @@ export default function BlogPost() {
             </div>
           </header>
 
-          <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: post.content.replace(/\n/g, '<br/>').replace(/##/g, '<h2>').replace(/<h2>/g, '</p><h2 class="text-2xl font-bold mt-8 mb-4">').replace(/\n/g, '</h2><p>') }} />
+          <div className="prose prose-lg max-w-none text-foreground">
+            {post.content}
+          </div>
 
           <footer className="mt-12 pt-8 border-t border-border">
             <div className="flex items-center justify-between">

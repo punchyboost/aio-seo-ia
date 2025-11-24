@@ -18,7 +18,7 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "Qu'est-ce que l'AIO et pourquoi c'est important en 2024 ?",
+    title: "Qu'est-ce que l'AIO et pourquoi c'est important en 2025 ?",
     excerpt: "L'AIO (Artificial Intelligence Optimization) représente l'évolution naturelle du SEO. Découvrez comment optimiser vos contenus pour Google et les IA génératives.",
     category: "AIO",
     date: "22 novembre 2025",
