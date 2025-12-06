@@ -2,44 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.punchyboost.com/</loc>
-    <lastmod>2024-11-23</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/services</loc>
-    <lastmod>2024-11-23</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/methode</loc>
-    <lastmod>2024-11-23</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/guide</loc>
-    <lastmod>2024-11-23</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/about</loc>
-    <lastmod>2024-11-23</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/blog</loc>
-    <lastmod>2024-11-23</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/contact</loc>
-    <lastmod>2024-11-23</lastmod>
+    <lastmod>2025-11-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/mentions-legales</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/politique-confidentialite</loc>
+    <lastmod>2025-11-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Articles de blog -->
+  <url>
+    <loc>https://www.punchyboost.com/blog/aio-seo-ia-tpe-pme</loc>
+    <lastmod>2025-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/blog/structurer-contenus-ai-overviews</loc>
+    <lastmod>2025-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/blog/eeat-credibilite-ia</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/blog/donnees-structurees-schema-aio</loc>
+    <lastmod>2025-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/blog/chatgpt-seo-strategie-contenu</loc>
+    <lastmod>2025-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/blog/identifier-requetes-ai-overview</loc>
+    <lastmod>2025-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
