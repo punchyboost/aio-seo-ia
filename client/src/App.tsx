@@ -3,6 +3,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import { HelmetProvider } from "react-helmet-async";
+import ReactGA from 'react-ga4';
+import Analytics from "./components/Analytics";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
@@ -35,6 +37,14 @@ function Router() {
 //   to keep consistent foreground/background color across components
 // - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
 
+// Récupérez l'ID de mesure depuis les variables d'environnement
+const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID;
+
+// Initialisez GA4 seulement si l'ID est présent
+if (GA_MEASUREMENT_ID) {
+  ReactGA.initialize(GA_MEASUREMENT_ID);
+}
+
 function App() {
   return (
     <ErrorBoundary>
@@ -45,6 +55,7 @@ function App() {
         >
           <TooltipProvider>
             <Toaster />
+            <Analytics />
             <Router />
           </TooltipProvider>
         </ThemeProvider>
