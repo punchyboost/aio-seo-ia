@@ -79,13 +79,15 @@ export default function BlogPost() {
           {/* Content */}
           <div 
             className="prose prose-lg dark:prose-invert max-w-none
-              prose-headings:font-bold prose-headings:tracking-tight
-              prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6
-              prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
-              prose-p:leading-relaxed prose-p:mb-6
-              prose-ul:my-6 prose-li:mb-2
-              prose-strong:text-primary prose-strong:font-semibold
-              prose-a:text-primary prose-a:no-underline hover:prose-a:underline"
+              prose-headings:font-bold prose-headings:tracking-tight prose-headings:text-foreground
+              prose-h2:text-3xl md:prose-h2:text-4xl prose-h2:mt-16 prose-h2:mb-8 prose-h2:pb-4 prose-h2:border-b prose-h2:border-border
+              prose-h3:text-2xl md:prose-h3:text-3xl prose-h3:mt-12 prose-h3:mb-6 prose-h3:text-primary/90
+              prose-p:leading-loose prose-p:mb-8 prose-p:text-lg prose-p:text-muted-foreground
+              prose-ul:my-8 prose-li:mb-4 prose-li:text-lg prose-li:text-muted-foreground
+              prose-ol:my-8 prose-ol:mb-4 prose-ol:text-lg prose-ol:text-muted-foreground
+              prose-strong:text-foreground prose-strong:font-bold
+              prose-a:text-primary prose-a:font-medium prose-a:no-underline hover:prose-a:underline hover:prose-a:text-primary/80 transition-colors
+              prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-xl prose-blockquote:text-muted-foreground prose-blockquote:bg-muted/30 prose-blockquote:py-2 prose-blockquote:pr-4 prose-blockquote:rounded-r-lg"
             dangerouslySetInnerHTML={{ __html: post.content || "<p>Contenu en cours de rédaction...</p>" }}
           />
 
