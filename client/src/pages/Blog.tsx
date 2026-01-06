@@ -2,75 +2,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-// Types pour les articles
-interface BlogPost {
-  id: string;
-  title: string;
-  excerpt: string;
-  category: string;
-  date: string;
-  readTime: string;
-  slug: string;
-}
-
-// Articles de démonstration - à remplacer par une vraie source de données
-const blogPosts: BlogPost[] = [
-  {
-    id: "1",
-    title: "Qu'est-ce que l'AIO et pourquoi c'est important en 2025 ?",
-    excerpt: "L'AIO (Artificial Intelligence Optimization) représente l'évolution naturelle du SEO. Découvrez comment optimiser vos contenus pour Google et les IA génératives.",
-    category: "AIO",
-    date: "22 novembre 2025",
-    readTime: "5 min",
-    slug: "quest-ce-que-aio-2024"
-  },
-  {
-    id: "2",
-    title: "Comment structurer vos contenus pour les AI Overviews de Google",
-    excerpt: "Les AI Overviews changent la donne en SEO. Apprenez à structurer vos pages pour être cité par Google dans ses réponses générées par IA.",
-    category: "SEO",
-    date: "20 novembre 2025",
-    readTime: "7 min",
-    slug: "structurer-contenus-ai-overviews"
-  },
-  {
-    id: "3",
-    title: "E-E-A-T : Comment renforcer votre crédibilité pour les IA",
-    excerpt: "Expertise, Expérience, Autorité, Trustworthiness : les 4 piliers pour être cité par les IA génératives. Guide pratique pour les TPE/PME.",
-    category: "E-E-A-T",
-    date: "18 novembre 2025",
-    readTime: "6 min",
-    slug: "eeat-credibilite-ia"
-  },
-  {
-    id: "4",
-    title: "Données structurées Schema.org : Le guide complet pour l'AIO",
-    excerpt: "Les données structurées sont essentielles pour que les IA comprennent votre contenu. Découvrez quels schémas utiliser et comment les implémenter.",
-    category: "Technique",
-    date: "15 novembre 2025",
-    readTime: "10 min",
-    slug: "donnees-structurees-schema-org"
-  },
-  {
-    id: "5",
-    title: "ChatGPT et SEO : Comment utiliser l'IA pour votre stratégie de contenu",
-    excerpt: "L'IA générative peut accélérer votre production de contenu sans sacrifier la qualité. Méthodes et prompts pour une utilisation efficace.",
-    category: "IA Générative",
-    date: "12 novembre 2025",
-    readTime: "8 min",
-    slug: "chatgpt-strategie-contenu-seo"
-  },
-  {
-    id: "6",
-    title: "Identifier les requêtes qui déclenchent un AI Overview",
-    excerpt: "Toutes les requêtes ne génèrent pas d'AI Overview. Apprenez à cartographier vos opportunités et à prioriser vos efforts SEO.",
-    category: "AIO",
-    date: "10 novembre 2025",
-    readTime: "5 min",
-    slug: "identifier-requetes-ai-overview"
-  }
-];
+import { blogPosts } from "@/data/blogPosts";
+import { Link } from "wouter";
 
 export default function Blog() {
   return (
@@ -78,14 +11,14 @@ export default function Blog() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-          <a href="/" className="text-2xl font-bold text-foreground hover:text-primary transition">AIO</a>
+          <Link href="/" className="text-2xl font-bold text-foreground hover:text-primary transition">AIO</Link>
           <div className="flex gap-6">
-            <a href="/" className="text-sm text-muted-foreground hover:text-foreground transition">Accueil</a>
-            <a href="/#services" className="text-sm text-muted-foreground hover:text-foreground transition">Services</a>
-            <a href="/#methode" className="text-sm text-muted-foreground hover:text-foreground transition">Méthode</a>
-            <a href="/#guide" className="text-sm text-muted-foreground hover:text-foreground transition">Guide</a>
-            <a href="/about" className="text-sm text-muted-foreground hover:text-foreground transition">À propos</a>
-            <a href="/blog" className="text-sm text-foreground font-semibold">Blog</a>
+            <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition">Accueil</Link>
+            <Link href="/#services" className="text-sm text-muted-foreground hover:text-foreground transition">Services</Link>
+            <Link href="/#methode" className="text-sm text-muted-foreground hover:text-foreground transition">Méthode</Link>
+            <Link href="/#guide" className="text-sm text-muted-foreground hover:text-foreground transition">Guide</Link>
+            <Link href="/about" className="text-sm text-muted-foreground hover:text-foreground transition">À propos</Link>
+            <Link href="/blog" className="text-sm text-foreground font-semibold">Blog</Link>
             <a href="https://prise-de-contact.lovable.app/" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition">Contact</a>
           </div>
         </div>
@@ -125,7 +58,7 @@ export default function Blog() {
           {/* Liste des articles */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {blogPosts.map((post) => (
-              <Card key={post.id} className="border-border bg-background hover:border-primary/50 transition group">
+              <Card key={post.id} className="border-border bg-background hover:border-primary/50 transition group flex flex-col">
                 <CardHeader>
                   <div className="flex items-center gap-2 mb-3">
                     <Badge variant="secondary" className="text-xs">
@@ -133,15 +66,15 @@ export default function Blog() {
                     </Badge>
                   </div>
                   <CardTitle className="text-xl mb-2 group-hover:text-primary transition">
-                    <a href={`/blog/${post.slug}`}>
+                    <Link href={`/blog/${post.slug}`}>
                       {post.title}
-                    </a>
+                    </Link>
                   </CardTitle>
                   <CardDescription className="line-clamp-3">
                     {post.excerpt}
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="mt-auto">
                   <div className="flex items-center justify-between text-sm text-muted-foreground mb-4">
                     <div className="flex items-center gap-1">
                       <Calendar className="w-4 h-4" />
@@ -153,10 +86,10 @@ export default function Blog() {
                     </div>
                   </div>
                   <Button variant="ghost" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition" asChild>
-                    <a href={`/blog/${post.slug}`}>
+                    <Link href={`/blog/${post.slug}`}>
                       Lire l'article
                       <ArrowRight className="w-4 h-4 ml-2" />
-                    </a>
+                    </Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -190,11 +123,11 @@ export default function Blog() {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Navigation</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="/#services" className="hover:text-foreground transition">Services</a></li>
-                <li><a href="/#methode" className="hover:text-foreground transition">Méthode</a></li>
-                <li><a href="/#guide" className="hover:text-foreground transition">Guide</a></li>
-                <li><a href="/about" className="hover:text-foreground transition">À propos</a></li>
-                <li><a href="/blog" className="hover:text-foreground transition">Blog</a></li>
+                <li><Link href="/#services" className="hover:text-foreground transition">Services</Link></li>
+                <li><Link href="/#methode" className="hover:text-foreground transition">Méthode</Link></li>
+                <li><Link href="/#guide" className="hover:text-foreground transition">Guide</Link></li>
+                <li><Link href="/about" className="hover:text-foreground transition">À propos</Link></li>
+                <li><Link href="/blog" className="hover:text-foreground transition">Blog</Link></li>
               </ul>
             </div>
             <div>
@@ -207,9 +140,9 @@ export default function Blog() {
             <p>&copy; {new Date().getFullYear()} Punchyboost - AIO SEO boosté par l'IA. Tous droits réservés.</p>
             <p className="mt-2">Dernière mise à jour : {new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
             <div className="mt-4 flex gap-4 justify-center">
-              <a href="/mentions-legales" className="hover:text-foreground transition">Mentions légales</a>
+              <Link href="/mentions-legales" className="hover:text-foreground transition">Mentions légales</Link>
               <span>•</span>
-              <a href="/politique-confidentialite" className="hover:text-foreground transition">Politique de confidentialité</a>
+              <Link href="/politique-confidentialite" className="hover:text-foreground transition">Politique de confidentialité</Link>
             </div>
           </div>
         </div>
