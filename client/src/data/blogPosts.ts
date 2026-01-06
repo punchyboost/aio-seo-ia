@@ -16,19 +16,19 @@ export const blogPosts: BlogPost[] = [
   // --- NOUVEAUX ARTICLES (PHASE 1) ---
   {
     id: "1",
-    title: "AIO vs SEO : Quelle différence ? [Tableau comparatif 2025]",
-    excerpt: "Découvrez les différences entre AIO et SEO. Tableau comparatif, stratégies, avantages et comment combiner les deux pour dominer Google ET les IA en 2025.",
+    title: "AIO vs SEO : Quelle différence ? [Tableau comparatif 2026]",
+    excerpt: "Découvrez les différences entre AIO et SEO. Tableau comparatif, stratégies, avantages et comment combiner les deux pour dominer Google ET les IA en 2026.",
     category: "AIO - Fondamentaux",
-    date: "8 décembre 2025",
+    date: "8 décembre 2026",
     readTime: "11 min",
-    slug: "aio-vs-seo-difference-2025",
-    metaTitle: "AIO vs SEO : Quelle différence ? Guide complet 2025 | Punchyboost",
-    metaDescription: "Découvrez les différences entre AIO et SEO. Tableau comparatif, stratégies, avantages et comment combiner les deux pour dominer Google ET les IA en 2025.",
-    keywords: "AIO vs SEO, différence AIO SEO, Artificial Intelligence Optimization, SEO 2025, optimisation IA",
+    slug: "aio-vs-seo-difference-2026",
+    metaTitle: "AIO vs SEO : Quelle différence ? Guide complet 2026 | Punchyboost",
+    metaDescription: "Découvrez les différences entre AIO et SEO. Tableau comparatif, stratégies, avantages et comment combiner les deux pour dominer Google ET les IA en 2026.",
+    keywords: "AIO vs SEO, différence AIO SEO, Artificial Intelligence Optimization, SEO 2026, optimisation IA",
     content: `
       <h2>Introduction : SEO et AIO, deux approches complémentaires</h2>
       <p>Le référencement naturel (SEO) a longtemps été la pierre angulaire de la visibilité en ligne. Mais avec l'émergence des intelligences artificielles génératives comme ChatGPT, Perplexity et Google AI Overviews, une nouvelle discipline s'impose : l'<strong>AIO (Artificial Intelligence Optimization)</strong>. Si vous vous demandez quelle est la différence entre AIO et SEO, si l'un remplace l'autre, ou comment les combiner efficacement, ce guide complet vous apporte toutes les réponses.</p>
-      <p>En 2025, optimiser uniquement pour Google ne suffit plus. Les utilisateurs interrogent désormais directement les IA pour obtenir des réponses instantanées, sans passer par les résultats de recherche traditionnels. Comprendre la distinction entre SEO et AIO devient donc stratégique pour toute TPE ou PME souhaitant rester visible et compétitive.</p>
+      <p>En 2026, optimiser uniquement pour Google ne suffit plus. Les utilisateurs interrogent désormais directement les IA pour obtenir des réponses instantanées, sans passer par les résultats de recherche traditionnels. Comprendre la distinction entre SEO et AIO devient donc stratégique pour toute TPE ou PME souhaitant rester visible et compétitive.</p>
 
       <h2>Qu'est-ce que le SEO (Search Engine Optimization) ?</h2>
       <p>Le <strong>SEO</strong> (Search Engine Optimization) désigne l'ensemble des techniques visant à améliorer la visibilité d'un site web dans les résultats des moteurs de recherche comme Google, Bing ou Yahoo. L'objectif principal du SEO est d'obtenir un meilleur classement dans les pages de résultats (SERP) pour des mots-clés spécifiques, afin d'attirer un trafic organique qualifié.</p>
@@ -39,8 +39,8 @@ export const blogPosts: BlogPost[] = [
       <p><strong>Le SEO on-page</strong> se concentre sur l'optimisation du contenu et des éléments visibles de chaque page. Il englobe la qualité et la pertinence du contenu, l'utilisation stratégique des mots-clés dans les titres (H1, H2, H3), les balises meta (title, description), les URL, les images (attributs alt), et les liens internes. L'objectif est de signaler clairement aux moteurs de recherche le sujet et la valeur de chaque page.</p>
       <p><strong>Le SEO off-page</strong> concerne les signaux externes qui renforcent l'autorité et la crédibilité du site. Le principal levier est l'acquisition de backlinks (liens entrants) provenant d'autres sites de qualité. Plus un site reçoit de liens pertinents et autoritaires, plus Google le considère comme une source fiable et digne de confiance. Les mentions de marque, les partages sur les réseaux sociaux et la réputation en ligne contribuent également au SEO off-page.</p>
 
-      <h3>Comment fonctionne le SEO en 2025 ?</h3>
-      <p>En 2025, le SEO continue d'évoluer avec l'intégration croissante de l'intelligence artificielle dans les algorithmes de Google. L'expérience utilisateur (UX) est devenue un facteur de classement majeur, avec des métriques comme les Core Web Vitals qui mesurent la vitesse, l'interactivité et la stabilité visuelle des pages.</p>
+      <h3>Comment fonctionne le SEO en 2026 ?</h3>
+      <p>En 2026, le SEO continue d'évoluer avec l'intégration croissante de l'intelligence artificielle dans les algorithmes de Google. L'expérience utilisateur (UX) est devenue un facteur de classement majeur, avec des métriques comme les Core Web Vitals qui mesurent la vitesse, l'interactivité et la stabilité visuelle des pages.</p>
       <p>Google privilégie désormais les contenus qui démontrent une expertise réelle, une autorité reconnue et une fiabilité vérifiable, selon le principe <strong>E-E-A-T</strong> (Experience, Expertise, Authoritativeness, Trustworthiness). Les sites qui publient du contenu superficiel ou généré automatiquement sans valeur ajoutée sont pénalisés.</p>
       <p>La recherche sémantique a également transformé le SEO. Google ne se contente plus de matcher des mots-clés, il comprend l'intention de recherche et le contexte. Les contenus doivent donc répondre de manière exhaustive aux questions des utilisateurs, en couvrant tous les aspects d'un sujet (concept de "topical authority").</p>
 
@@ -54,8 +54,8 @@ export const blogPosts: BlogPost[] = [
       <p><strong>L'autorité et la crédibilité</strong> sont déterminantes pour que les IA vous citent. Contrairement à Google qui analyse les backlinks, les IA évaluent la fiabilité d'une source en fonction de la clarté des informations d'auteur, des références citées, de la cohérence du contenu, et de la présence de données vérifiables. Afficher clairement votre expertise, vos qualifications et vos sources renforce votre légitimité aux yeux des IA.</p>
       <p><strong>Les données structurées et la sémantique</strong> permettent aux IA de comprendre précisément le contenu. L'utilisation de Schema.org (Article, FAQPage, HowTo, Organization) aide les IA à identifier le type de contenu, l'auteur, la date de publication, et les entités mentionnées. Un vocabulaire précis, des définitions claires et une hiérarchie logique facilitent l'extraction d'informations par les modèles de langage.</p>
 
-      <h3>Comment fonctionne l'AIO en 2025 ?</h3>
-      <p>En 2025, les IA génératives s'appuient sur plusieurs mécanismes pour sélectionner les sources qu'elles citent. Elles analysent la <strong>fraîcheur du contenu</strong> (les informations récentes sont privilégiées), la <strong>profondeur de traitement</strong> (les contenus exhaustifs sont préférés aux articles superficiels), et la <strong>cohérence sémantique</strong> (les textes bien structurés et sans contradictions internes).</p>
+      <h3>Comment fonctionne l'AIO en 2026 ?</h3>
+      <p>En 2026, les IA génératives s'appuient sur plusieurs mécanismes pour sélectionner les sources qu'elles citent. Elles analysent la <strong>fraîcheur du contenu</strong> (les informations récentes sont privilégiées), la <strong>profondeur de traitement</strong> (les contenus exhaustifs sont préférés aux articles superficiels), et la <strong>cohérence sémantique</strong> (les textes bien structurés et sans contradictions internes).</p>
       <p>Les AI Overviews de Google, qui apparaissent en haut des résultats de recherche pour certaines requêtes, sélectionnent leurs sources en combinant les signaux SEO traditionnels (autorité du domaine, backlinks) et des critères spécifiques à l'AIO (structure conversationnelle, clarté des réponses, présence de données factuelles).</p>
       <p>Pour être cité par ChatGPT, Perplexity ou Claude, votre contenu doit être accessible publiquement, bien structuré, et apporter une valeur informative claire. Les IA favorisent les contenus qui citent leurs propres sources, qui admettent les limites de leur connaissance, et qui présentent plusieurs perspectives sur un sujet.</p>
 
@@ -175,7 +175,7 @@ export const blogPosts: BlogPost[] = [
       <p>L'AIO peut offrir des résultats plus rapides. Les IA génératives mettent à jour leurs connaissances plus fréquemment et peuvent intégrer un contenu récent s'il est particulièrement pertinent et bien structuré. Il n'est pas rare de voir un article optimisé AIO être cité par ChatGPT ou Perplexity quelques semaines seulement après sa publication.</p>
 
       <h2>Faut-il choisir entre AIO et SEO ?</h2>
-      <p>La réponse est non. AIO et SEO ne sont pas concurrents, mais complémentaires. Pour une stratégie de visibilité complète en 2025, vous devez combiner les deux approches.</p>
+      <p>La réponse est non. AIO et SEO ne sont pas concurrents, mais complémentaires. Pour une stratégie de visibilité complète en 2026, vous devez combiner les deux approches.</p>
       <p>Le SEO reste indispensable pour capter le trafic transactionnel et navigationnel. Lorsque les utilisateurs cherchent à acheter un produit ou à trouver un site spécifique, ils utilisent encore majoritairement les moteurs de recherche classiques.</p>
       <p>L'AIO est crucial pour capter le trafic informationnel et construire votre autorité. Lorsque les utilisateurs cherchent des réponses, des conseils ou des explications, ils se tournent de plus en plus vers les IA. Être présent sur ces canaux renforce votre statut d'expert et nourrit votre notoriété de marque.</p>
       <p>En optimisant vos contenus pour l'AIO (structure claire, questions-réponses, données structurées), vous améliorez également votre SEO. Google valorise de plus en plus les contenus qui répondent précisément aux intentions de recherche et qui offrent une excellente expérience utilisateur.</p>
@@ -188,13 +188,13 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "2",
-    title: "Comment mettre en place l'AIO dans votre TPE/PME ? [Guide pratique 2025]",
+    title: "Comment mettre en place l'AIO dans votre TPE/PME ? [Guide pratique 2026]",
     excerpt: "Guide pratique pour implémenter l'AIO dans votre TPE/PME. 7 étapes concrètes, outils, budget, et exemples pour être cité par ChatGPT et les AI Overviews.",
     category: "AIO - Fondamentaux",
-    date: "8 décembre 2025",
+    date: "8 décembre 2026",
     readTime: "17 min",
-    slug: "mettre-en-place-aio-tpe-pme-guide-2025",
-    metaTitle: "Comment mettre en place l'AIO dans votre TPE/PME ? Guide 2025 | Punchyboost",
+    slug: "mettre-en-place-aio-tpe-pme-guide-2026",
+    metaTitle: "Comment mettre en place l'AIO dans votre TPE/PME ? Guide 2026 | Punchyboost",
     metaDescription: "Guide pratique pour implémenter l'AIO dans votre TPE/PME. 7 étapes concrètes, outils, budget, et exemples pour être cité par ChatGPT et les AI Overviews.",
     keywords: "mettre en place AIO, AIO TPE PME, implémenter AIO, stratégie AIO, optimisation IA entreprise",
     content: `
@@ -266,18 +266,18 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "3",
-    title: "Comment être cité par ChatGPT, Perplexity et Google AI Overviews ? [Guide complet 2025]",
+    title: "Comment être cité par ChatGPT, Perplexity et Google AI Overviews ? [Guide complet 2026]",
     excerpt: "Découvrez les 12 techniques éprouvées pour que votre contenu soit cité par ChatGPT, Perplexity, Claude et Google AI Overviews. Stratégies concrètes et exemples réels.",
     category: "AIO - Stratégies avancées",
-    date: "8 décembre 2025",
+    date: "8 décembre 2026",
     readTime: "23 min",
-    slug: "etre-cite-chatgpt-perplexity-ai-overviews-2025",
-    metaTitle: "Comment être cité par ChatGPT, Perplexity et AI Overviews ? Guide 2025",
+    slug: "etre-cite-chatgpt-perplexity-ai-overviews-2026",
+    metaTitle: "Comment être cité par ChatGPT, Perplexity et AI Overviews ? Guide 2026",
     metaDescription: "Découvrez les 12 techniques éprouvées pour que votre contenu soit cité par ChatGPT, Perplexity, Claude et Google AI Overviews. Stratégies concrètes et exemples réels.",
     keywords: "être cité par ChatGPT, citation IA, AI Overviews, Perplexity SEO, optimisation IA, AIO stratégie",
     content: `
       <h2>Introduction : Pourquoi être cité par les IA est devenu stratégique</h2>
-      <p>En 2025, être visible sur Google ne suffit plus. Des millions d'utilisateurs interrogent désormais directement ChatGPT, Perplexity, Claude, ou consultent les <strong>AI Overviews</strong> de Google pour obtenir des réponses instantanées sans naviguer sur plusieurs sites web. Pour ces utilisateurs, votre site n'existe que s'il est cité par l'IA comme source de référence.</p>
+      <p>En 2026, être visible sur Google ne suffit plus. Des millions d'utilisateurs interrogent désormais directement ChatGPT, Perplexity, Claude, ou consultent les <strong>AI Overviews</strong> de Google pour obtenir des réponses instantanées sans naviguer sur plusieurs sites web. Pour ces utilisateurs, votre site n'existe que s'il est cité par l'IA comme source de référence.</p>
       <p>Être cité par les intelligences artificielles génératives représente un enjeu stratégique majeur pour toute entreprise qui souhaite maintenir sa visibilité en ligne. Contrairement au SEO traditionnel où vous apparaissez dans une liste de résultats, être cité par une IA signifie que votre expertise est directement intégrée dans la réponse fournie à l'utilisateur. C'est une validation puissante de votre crédibilité et une opportunité unique de renforcer votre notoriété.</p>
       <p>Ce guide complet vous révèle les douze techniques éprouvées pour maximiser vos chances d'être cité par ChatGPT, Perplexity, Claude, et les AI Overviews de Google. Vous découvrirez des stratégies concrètes, des exemples réels, et des erreurs à éviter pour transformer votre contenu en source de référence pour les IA.</p>
 
@@ -318,18 +318,18 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: "4",
-    title: "AI Overviews : Le guide complet pour les TPE/PME [2025]",
-    excerpt: "Tout savoir sur les AI Overviews de Google : fonctionnement, impact SEO, optimisation, opportunités pour les TPE/PME. Guide complet avec stratégies concrètes 2025.",
+    title: "AI Overviews : Le guide complet pour les TPE/PME [2026]",
+    excerpt: "Tout savoir sur les AI Overviews de Google : fonctionnement, impact SEO, optimisation, opportunités pour les TPE/PME. Guide complet avec stratégies concrètes 2026.",
     category: "AIO - Stratégies avancées",
-    date: "8 décembre 2025",
+    date: "8 décembre 2026",
     readTime: "20 min",
-    slug: "ai-overviews-guide-complet-tpe-pme-2025",
-    metaTitle: "AI Overviews Google : Guide complet TPE/PME 2025 | Punchyboost",
-    metaDescription: "Tout savoir sur les AI Overviews de Google : fonctionnement, impact SEO, optimisation, opportunités pour les TPE/PME. Guide complet avec stratégies concrètes 2025.",
+    slug: "ai-overviews-guide-complet-tpe-pme-2026",
+    metaTitle: "AI Overviews Google : Guide complet TPE/PME 2026 | Punchyboost",
+    metaDescription: "Tout savoir sur les AI Overviews de Google : fonctionnement, impact SEO, optimisation, opportunités pour les TPE/PME. Guide complet avec stratégies concrètes 2026.",
     keywords: "AI Overviews, Google AI Overviews, SGE Google, Search Generative Experience, optimisation AI Overviews, AIO Google",
     content: `
       <h2>Introduction : Les AI Overviews, la révolution de la recherche Google</h2>
-      <p>En 2025, Google a profondément transformé l'expérience de recherche avec les <strong>AI Overviews</strong> (anciennement appelés SGE - Search Generative Experience). Ces résumés générés par intelligence artificielle apparaissent désormais en haut des résultats de recherche pour des millions de requêtes, fournissant aux utilisateurs une réponse synthétique immédiate avant même les résultats organiques traditionnels.</p>
+      <p>En 2026, Google a profondément transformé l'expérience de recherche avec les <strong>AI Overviews</strong> (anciennement appelés SGE - Search Generative Experience). Ces résumés générés par intelligence artificielle apparaissent désormais en haut des résultats de recherche pour des millions de requêtes, fournissant aux utilisateurs une réponse synthétique immédiate avant même les résultats organiques traditionnels.</p>
       <p>Pour les TPE et PME, les AI Overviews représentent à la fois un défi et une opportunité majeure. Un défi, car ils peuvent capter l'attention des utilisateurs avant qu'ils ne cliquent sur votre site. Une opportunité, car être cité comme source dans un AI Overview confère une crédibilité exceptionnelle et une visibilité premium.</p>
       <p>Ce guide complet vous explique tout ce que vous devez savoir sur les AI Overviews : comment ils fonctionnent, quel est leur impact sur le trafic organique, comment optimiser vos contenus pour y apparaître, et quelles stratégies adopter pour transformer cette évolution en avantage concurrentiel.</p>
 
@@ -371,10 +371,10 @@ export const blogPosts: BlogPost[] = [
   // --- ANCIENS ARTICLES ---
   {
     id: "5",
-    title: "Qu'est-ce que l'AIO et pourquoi c'est important en 2025 ?",
+    title: "Qu'est-ce que l'AIO et pourquoi c'est important en 2026 ?",
     excerpt: "L'AIO (Artificial Intelligence Optimization) représente l'évolution naturelle du SEO. Découvrez comment optimiser vos contenus pour Google et les IA génératives.",
     category: "AIO",
-    date: "22 novembre 2025",
+    date: "22 novembre 2026",
     readTime: "5 min",
     slug: "aio-seo-ia-tpe-pme",
     content: "<p>Contenu à venir...</p>"
@@ -384,7 +384,7 @@ export const blogPosts: BlogPost[] = [
     title: "Comment structurer vos contenus pour les AI Overviews de Google",
     excerpt: "Les AI Overviews changent la donne en SEO. Apprenez à structurer vos pages pour être cité par Google dans ses réponses générées par IA.",
     category: "SEO",
-    date: "20 novembre 2025",
+    date: "20 novembre 2026",
     readTime: "7 min",
     slug: "structurer-contenus-ai-overviews",
     content: "<p>Contenu à venir...</p>"
@@ -394,7 +394,7 @@ export const blogPosts: BlogPost[] = [
     title: "E-E-A-T : Comment renforcer votre crédibilité pour les IA",
     excerpt: "Expertise, Expérience, Autorité, Trustworthiness : les 4 piliers pour être cité par les IA génératives. Guide pratique pour les TPE/PME.",
     category: "E-E-A-T",
-    date: "18 novembre 2025",
+    date: "18 novembre 2026",
     readTime: "6 min",
     slug: "eeat-credibilite-ia",
     content: "<p>Contenu à venir...</p>"
@@ -404,7 +404,7 @@ export const blogPosts: BlogPost[] = [
     title: "Données structurées Schema.org : Le guide complet pour l'AIO",
     excerpt: "Les données structurées sont essentielles pour que les IA comprennent votre contenu. Découvrez quels schémas utiliser et comment les implémenter.",
     category: "Technique",
-    date: "15 novembre 2025",
+    date: "15 novembre 2026",
     readTime: "10 min",
     slug: "donnees-structurees-schema-aio",
     content: "<p>Contenu à venir...</p>"
@@ -414,7 +414,7 @@ export const blogPosts: BlogPost[] = [
     title: "ChatGPT et SEO : Comment utiliser l'IA pour votre stratégie de contenu",
     excerpt: "L'IA générative peut accélérer votre production de contenu sans sacrifier la qualité. Méthodes et prompts pour une utilisation efficace.",
     category: "IA Générative",
-    date: "12 novembre 2025",
+    date: "12 novembre 2026",
     readTime: "8 min",
     slug: "chatgpt-seo-strategie-contenu",
     content: "<p>Contenu à venir...</p>"
@@ -424,7 +424,7 @@ export const blogPosts: BlogPost[] = [
     title: "Identifier les requêtes qui déclenchent un AI Overview",
     excerpt: "Toutes les requêtes ne génèrent pas d'AI Overview. Apprenez à cartographier vos opportunités et à prioriser vos efforts SEO.",
     category: "AIO",
-    date: "10 novembre 2025",
+    date: "10 novembre 2026",
     readTime: "5 min",
     slug: "identifier-requetes-ai-overview",
     content: "<p>Contenu à venir...</p>"
