@@ -151,8 +151,10 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Services Section */}
-        <section id="services" className="bg-muted/50 py-20">
+        {/* Se
+
+        {/* Guide Section */}
+        <section id="guide" className="bg-muted/50 py-20">
           <div className="container max-w-6xl mx-auto px-4">
             <h2 className="text-4xl font-bold text-foreground mb-4">Mes services de Consultant SEO & AIO</h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl">
@@ -453,6 +455,17 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Banner Section */}
+        <section className="container max-w-6xl mx-auto px-4 py-12">
+          <div className="rounded-2xl overflow-hidden shadow-2xl border border-border">
+            <img 
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/UDUapVVZEVmrZGcw.png" 
+              alt="SEO + IA Générative : De la stratégie à la rédaction avec méthode pour TPE/PME" 
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </section>
+
         {/* Guide Section - Comprendre l'AIO */}
         <section id="guide" className="container max-w-6xl mx-auto px-4 py-20">
           <h2 className="text-4xl font-bold text-foreground mb-8">Qu'est-ce que l'AIO (Artificial Intelligence Optimization) ?</h2>
@@ -553,16 +566,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-{/* Banner Section */}
-        <section className="container max-w-6xl mx-auto px-4 py-12">
-          <div className="rounded-2xl overflow-hidden shadow-2xl border border-border">
-            <img 
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/UDUapVVZEVmrZGcw.png" 
-              alt="SEO + IA Générative : De la stratégie à la rédaction avec méthode pour TPE/PME" 
-              className="w-full h-auto object-cover"
-            />
-          </div>
-        </section>
+
 
         {/* AIO Definition Section */}
         <section id="aio-definition" className="container max-w-6xl mx-auto px-4 py-20">    <div className="bg-primary text-primary-foreground rounded-lg p-12 text-center">
