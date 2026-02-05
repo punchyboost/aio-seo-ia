@@ -161,11 +161,11 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <FileText className="w-5 h-5 text-primary" />
-                    Optimisation de contenus
+                    Cocon Sémantique & Stratégie
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
-                  Amélioration d'articles, pages et fiches produits existants pour mieux répondre aux questions des utilisateurs.
+                  Architecture de contenus en silos (Cocon Sémantique) pour renforcer votre autorité thématique et dominer vos sujets sur Google et les IA.
                 </CardContent>
               </Card>
 
