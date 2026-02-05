@@ -207,6 +207,13 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
                   Création de prompts sur-mesure pour ChatGPT et autres LLMs adaptés à vos cas d'usage spécifiques.
+                  <div className="mt-4 rounded-lg overflow-hidden border border-border bg-muted/30 p-2">
+                    <img 
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/GQVNcLacbRPAHpya.png" 
+                      alt="Conception de prompts IA : Emotion, Clarté, Impact" 
+                      className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </CardContent>
               </Card>
 
@@ -219,6 +226,13 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
                   Mise en place de workflows documentés et reproductibles : briefs, fiches produits, calendriers éditoriaux.
+                  <div className="mt-4 rounded-lg overflow-hidden border border-border bg-muted/30 p-2">
+                    <img 
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/AlHzeThrjqLKHaaI.png" 
+                      alt="Processus de contenu : L'IA comme souffleur d'idées" 
+                      className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </CardContent>
               </Card>
             </div>
@@ -539,10 +553,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-
-
-        {/* Banner Section */}
+{/* Banner Section */}
         <section className="container max-w-6xl mx-auto px-4 py-12">
           <div className="rounded-2xl overflow-hidden shadow-2xl border border-border">
             <img 
@@ -553,8 +564,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Méthode Section */}
-        <section id="methode" className="container max-w-6xl mx-auto px-4 py-20">       <div className="bg-primary text-primary-foreground rounded-lg p-12 text-center">
+        {/* AIO Definition Section */}
+        <section id="aio-definition" className="container max-w-6xl mx-auto px-4 py-20">    <div className="bg-primary text-primary-foreground rounded-lg p-12 text-center">
             <h2 className="text-4xl font-bold mb-4">Et si votre SEO passait enfin en mode AIO ?</h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
               Si vous êtes une TPE/PME avec un site déjà en ligne et l'impression de ne pas en tirer tout son potentiel, l'AIO est probablement le bon cadre pour remettre de l'ordre dans vos contenus, votre SEO et vos usages de l'IA.
