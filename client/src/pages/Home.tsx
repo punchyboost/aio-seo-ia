@@ -169,6 +169,13 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
                   Analyse technique, contenu, autorité, structure et intentions de recherche pour identifier les opportunités d'amélioration.
+                  <div className="mt-4 rounded-lg overflow-hidden border border-border bg-muted/30 p-2">
+                    <img 
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/IYVivMxqBwJbYqce.webp" 
+                      alt="Croissance trafic SEO et résultats" 
+                      className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </CardContent>
               </Card>
 
@@ -250,15 +257,15 @@ export default function Home() {
 
               {/* La Fabrique à Idiots */}
               <div className="group relative overflow-hidden rounded-xl border border-border bg-muted/20 hover:shadow-xl transition-all duration-300">
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden bg-white/5">
                   <img 
                     src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/apWLRKJUphWBNdXm.png" 
                     alt="La fabrique à idiots - Danger de l'IA mal utilisée" 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="font-bold text-lg mb-2">La Fabrique à Idiots</h3>
+                  <h3 className="font-bold text-lg mb-2">La fabrique à idiots</h3>
                   <p className="text-sm text-muted-foreground">L'IA sans stratégie ne produit que du bruit. L'intelligence reste humaine.</p>
                 </div>
               </div>
@@ -273,7 +280,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="font-bold text-lg mb-2">L'Expérience avant tout</h3>
+                  <h3 className="font-bold text-lg mb-2">L'expérience avant tout</h3>
                   <p className="text-sm text-muted-foreground">La technologie change, les fondamentaux du marketing et de la psychologie restent.</p>
                 </div>
               </div>
@@ -288,7 +295,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="font-bold text-lg mb-2">Automatisation vs Relation</h3>
+                  <h3 className="font-bold text-lg mb-2">Automatisation vs relation</h3>
                   <p className="text-sm text-muted-foreground">L'IA pour les tâches répétitives, l'humain pour la relation client.</p>
                 </div>
               </div>
@@ -318,7 +325,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-4">
-                  <h3 className="font-bold text-lg mb-2">L'Avenir du Travail</h3>
+                  <h3 className="font-bold text-lg mb-2">L'avenir du consultant SEO</h3>
                   <p className="text-sm text-muted-foreground">S'adapter ou disparaître : comment l'IA redéfinit nos métiers.</p>
                 </div>
               </div>
