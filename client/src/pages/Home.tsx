@@ -171,8 +171,8 @@ export default function Home() {
                   Analyse technique, contenu, autorité, structure et intentions de recherche pour identifier les opportunités d'amélioration.
                   <div className="mt-4 rounded-lg overflow-hidden border border-border bg-muted/30 p-2">
                     <img 
-                      src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/IYVivMxqBwJbYqce.webp" 
-                      alt="Croissance trafic SEO et résultats" 
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/FgKswdMcyikYLHIf.png" 
+                      alt="Audit SEO : Recul stratégique et clarté" 
                       className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
                     />
                   </div>
