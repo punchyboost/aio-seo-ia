@@ -542,9 +542,19 @@ export default function Home() {
 
 
 
-        {/* CTA Section */}
-        <section id="contact" className="container max-w-6xl mx-auto px-4 py-20">
-          <div className="bg-primary text-primary-foreground rounded-lg p-12 text-center">
+        {/* Banner Section */}
+        <section className="container max-w-6xl mx-auto px-4 py-12">
+          <div className="rounded-2xl overflow-hidden shadow-2xl border border-border">
+            <img 
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/UDUapVVZEVmrZGcw.png" 
+              alt="SEO + IA Générative : De la stratégie à la rédaction avec méthode pour TPE/PME" 
+              className="w-full h-auto object-cover"
+            />
+          </div>
+        </section>
+
+        {/* Méthode Section */}
+        <section id="methode" className="container max-w-6xl mx-auto px-4 py-20">       <div className="bg-primary text-primary-foreground rounded-lg p-12 text-center">
             <h2 className="text-4xl font-bold mb-4">Et si votre SEO passait enfin en mode AIO ?</h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
               Si vous êtes une TPE/PME avec un site déjà en ligne et l'impression de ne pas en tirer tout son potentiel, l'AIO est probablement le bon cadre pour remettre de l'ordre dans vos contenus, votre SEO et vos usages de l'IA.
