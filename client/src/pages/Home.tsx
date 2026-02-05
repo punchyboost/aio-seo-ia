@@ -100,13 +100,28 @@ export default function Home() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="container max-w-6xl mx-auto px-4 py-20 md:py-32">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl relative">
+            <div className="absolute -top-20 -right-20 hidden lg:block opacity-20 pointer-events-none">
+              <img 
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/dAIWiTvzwLrjfvAu.png" 
+                alt="Caricature Consultant SEO IA Punchy" 
+                className="w-64 h-auto rotate-12"
+              />
+            </div>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
               Consultant SEO & AIO : Boostez votre visibilité avec l'IA
             </h1>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Je suis consultant SEO spécialisé en AIO (Artificial Intelligence Optimization). J'aide les TPE/PME à réaliser leur audit SEO et à déployer une stratégie de contenu pensée pour Google et les IA génératives (ChatGPT, Perplexity).
-            </p>
+            
+            <div className="flex flex-col md:flex-row items-center gap-6 mb-8">
+              <img 
+                src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/lRmOvgEIwkNPdYWq.jpg" 
+                alt="Christian Lyon Consultant SEO Expert AIO" 
+                className="w-24 h-24 rounded-full border-4 border-primary shadow-lg object-cover flex-shrink-0"
+              />
+              <p className="text-xl text-muted-foreground leading-relaxed">
+                Je suis consultant SEO spécialisé en AIO (Artificial Intelligence Optimization). J'aide les TPE/PME à réaliser leur audit SEO et à déployer une stratégie de contenu pensée pour Google et les IA génératives (ChatGPT, Perplexity).
+              </p>
+            </div>
             <div className="bg-muted/50 border border-border rounded-lg p-6 mb-8">
               <p className="font-semibold text-foreground mb-3">Vous avez déjà un site, parfois des contenus, mais peu de résultats.</p>
               <p className="text-muted-foreground">J'aide les TPE/PME à transformer leur SEO et leurs contenus grâce à l'IA pour générer plus de trafic qualifié et des demandes entrantes pertinentes.</p>
@@ -166,6 +181,13 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="text-muted-foreground">
                   Architecture de contenus en silos (Cocon Sémantique) pour renforcer votre autorité thématique et dominer vos sujets sur Google et les IA.
+                  <div className="mt-4 rounded-lg overflow-hidden border border-border bg-muted/30 p-2">
+                    <img 
+                      src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/aQAqkftnlVhWBFGM.png" 
+                      alt="Schéma Cocon Sémantique SEO Structure en Silos" 
+                      className="w-full h-auto object-contain hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </CardContent>
               </Card>
 
@@ -198,6 +220,108 @@ export default function Home() {
               <p className="text-foreground font-semibold">
                 L'AIO (Artificial Intelligence Optimization), c'est du SEO boosté par l'IA : des contenus pensés pour être compris par Google et recommandés par des IA génératives comme ChatGPT.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Philosophy & Vision Section */}
+        <section className="py-20 bg-background border-t border-border">
+          <div className="container max-w-6xl mx-auto px-4">
+            <h2 className="text-4xl font-bold text-foreground mb-4 text-center">Ma Vision du SEO & de l'IA</h2>
+            <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto text-center">
+              Le SEO n'est pas qu'une affaire de technique, c'est une question de bon sens, de stratégie et de compréhension humaine. Voici quelques-uns de mes "manifestes" visuels.
+            </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* La Carte n'est pas le territoire */}
+              <div className="group relative overflow-hidden rounded-xl border border-border bg-muted/20 hover:shadow-xl transition-all duration-300">
+                <div className="aspect-square overflow-hidden">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/GEhvarqmfXoekbtY.png" 
+                    alt="La carte n'est pas le territoire - Illustration SEO" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-lg mb-2">La carte n'est pas le territoire</h3>
+                  <p className="text-sm text-muted-foreground">Ne confondez pas vos métriques SEO avec la réalité de votre business.</p>
+                </div>
+              </div>
+
+              {/* La Fabrique à Idiots */}
+              <div className="group relative overflow-hidden rounded-xl border border-border bg-muted/20 hover:shadow-xl transition-all duration-300">
+                <div className="aspect-square overflow-hidden">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/apWLRKJUphWBNdXm.png" 
+                    alt="La fabrique à idiots - Danger de l'IA mal utilisée" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-lg mb-2">La Fabrique à Idiots</h3>
+                  <p className="text-sm text-muted-foreground">L'IA sans stratégie ne produit que du bruit. L'intelligence reste humaine.</p>
+                </div>
+              </div>
+
+              {/* Senior d'aujourd'hui */}
+              <div className="group relative overflow-hidden rounded-xl border border-border bg-muted/20 hover:shadow-xl transition-all duration-300">
+                <div className="aspect-square overflow-hidden">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/LOPmBVorzkQsEfvg.png" 
+                    alt="Le Senior d'aujourd'hui - Experience vs Tech" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-lg mb-2">L'Expérience avant tout</h3>
+                  <p className="text-sm text-muted-foreground">La technologie change, les fondamentaux du marketing et de la psychologie restent.</p>
+                </div>
+              </div>
+
+              {/* On peut automatiser un email */}
+              <div className="group relative overflow-hidden rounded-xl border border-border bg-muted/20 hover:shadow-xl transition-all duration-300">
+                <div className="aspect-square overflow-hidden">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/rxFKAgmaffCHrGSV.png" 
+                    alt="On peut automatiser un email mais pas une relation" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-lg mb-2">Automatisation vs Relation</h3>
+                  <p className="text-sm text-muted-foreground">L'IA pour les tâches répétitives, l'humain pour la relation client.</p>
+                </div>
+              </div>
+
+              {/* Marketing Ciné */}
+              <div className="group relative overflow-hidden rounded-xl border border-border bg-muted/20 hover:shadow-xl transition-all duration-300">
+                <div className="aspect-square overflow-hidden">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/rGidKVnSpfiWEvTE.png" 
+                    alt="Marketing Cinéma - Storytelling" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-lg mb-2">Votre marque est un film</h3>
+                  <p className="text-sm text-muted-foreground">Le storytelling est la clé pour captiver votre audience dans un monde saturé.</p>
+                </div>
+              </div>
+
+              {/* Job */}
+              <div className="group relative overflow-hidden rounded-xl border border-border bg-muted/20 hover:shadow-xl transition-all duration-300">
+                <div className="aspect-square overflow-hidden">
+                  <img 
+                    src="https://files.manuscdn.com/user_upload_by_module/session_file/112321664/mIIcjAHECRNBwguZ.png" 
+                    alt="Evolution du travail avec l'IA" 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-bold text-lg mb-2">L'Avenir du Travail</h3>
+                  <p className="text-sm text-muted-foreground">S'adapter ou disparaître : comment l'IA redéfinit nos métiers.</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
