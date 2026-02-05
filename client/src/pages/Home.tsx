@@ -14,11 +14,11 @@ export default function Home() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
-          "headline": "AIO : SEO boosté par l'IA pour les TPE/PME",
+          "headline": "Consultant SEO & AIO : Boostez votre visibilité avec l'IA",
           "description": "L'AIO (Artificial Intelligence Optimization), c'est du SEO boosté par l'IA. J'aide les TPE/PME à structurer un SEO + contenu + IA qui génère plus de trafic qualifié et de demandes entrantes.",
           "author": {
             "@type": "Person",
-            "name": "Consultant SEO & IA"
+            "name": "Consultant SEO & AIO"
           },
           "datePublished": "2024-11-22",
           "dateModified": "2024-11-22"
@@ -102,10 +102,10 @@ export default function Home() {
         <section className="container max-w-6xl mx-auto px-4 py-20 md:py-32">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-              AIO : un SEO boosté par l'IA pour les TPE/PME
+              Consultant SEO & AIO : Boostez votre visibilité avec l'IA
             </h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              L'AIO (Artificial Intelligence Optimization) est la continuité naturelle du SEO : des contenus pensés à la fois pour Google et pour les IA génératives comme ChatGPT, Perplexity et Gemini.
+              Je suis consultant SEO spécialisé en AIO (Artificial Intelligence Optimization). J'aide les TPE/PME à réaliser leur audit SEO et à déployer une stratégie de contenu pensée pour Google et les IA génératives (ChatGPT, Perplexity).
             </p>
             <div className="bg-muted/50 border border-border rounded-lg p-6 mb-8">
               <p className="font-semibold text-foreground mb-3">Vous avez déjà un site, parfois des contenus, mais peu de résultats.</p>
@@ -139,9 +139,9 @@ export default function Home() {
         {/* Services Section */}
         <section id="services" className="bg-muted/50 py-20">
           <div className="container max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Ce que je fais pour votre SEO, vos contenus et l'IA</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">Mes services de Consultant SEO & AIO</h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-2xl">
-              Consultant en marketing digital spécialisé en SEO et IA générative, j'aide les TPE/PME à améliorer leur visibilité en ligne et accélérer leur production de contenus.
+              En tant que consultant SEO expert en IA générative, je réalise votre audit SEO complet et vous accompagne pour améliorer votre visibilité en ligne et accélérer votre production de contenus.
             </p>
             
             <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -149,7 +149,7 @@ export default function Home() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Zap className="w-5 h-5 text-primary" />
-                    Audits SEO
+                    Audit SEO & AIO
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-muted-foreground">

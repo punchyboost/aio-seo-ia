@@ -2,41 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.punchyboost.com/</loc>
-    <lastmod>2025-11-24</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/about</loc>
-    <lastmod>2025-11-24</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/blog</loc>
-    <lastmod>2025-11-24</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/contact</loc>
-    <lastmod>2025-11-24</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/mentions-legales</loc>
-    <lastmod>2025-11-24</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://www.punchyboost.com/politique-confidentialite</loc>
-    <lastmod>2025-11-24</lastmod>
+    <lastmod>2026-02-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  <!-- Articles de blog -->
+  <!-- Nouveaux Articles de blog (Phase 1 - Janvier 2026) -->
+  <url>
+    <loc>https://www.punchyboost.com/blog/aio-vs-seo-quelle-difference</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/blog/mettre-en-place-aio-tpe-pme</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/blog/etre-cite-par-ia</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.punchyboost.com/blog/ai-overviews-guide-complet</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Anciens Articles de blog (2025) -->
   <url>
     <loc>https://www.punchyboost.com/blog/aio-seo-ia-tpe-pme</loc>
     <lastmod>2025-11-22</lastmod>
